@@ -1,3 +1,11 @@
+expat (2.1.0-7ubuntu0.16.04.3) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: external entity infinite loop
+    - debian/patches/CVE-2017-9233.patch: add check to lib/xmlparse.c.
+    - CVE-2017-9233
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 27 Jun 2017 09:05:33 -0400
+
 expat (2.1.0-7ubuntu0.16.04.2) xenial-security; urgency=medium
 
   * SECURITY UPDATE: unanticipated internal calls to srand
