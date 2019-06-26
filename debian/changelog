@@ -1,3 +1,13 @@
+expat (2.1.0-7ubuntu0.16.04.4) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2018-20843.patch: adds a break in
+      setElementTypePrefix avoiding consume a high amount of RAM
+      and CPU in lib/xmlparser.c
+    - CVE-2018-20843
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Wed, 26 Jun 2019 12:09:36 -0300
+
 expat (2.1.0-7ubuntu0.16.04.3) xenial-security; urgency=medium
 
   * SECURITY UPDATE: external entity infinite loop
