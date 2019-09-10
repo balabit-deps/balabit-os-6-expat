@@ -1,3 +1,12 @@
+expat (2.1.0-7ubuntu0.16.04.5) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: heap-based buffer over-read
+    - debian/patches/CVE-2019-15903.patch: Deny internal
+      entities closing the doctype in lib/xmlparse.c.
+    - CVE-2019-15903
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Tue, 10 Sep 2019 15:27:03 -0300
+
 expat (2.1.0-7ubuntu0.16.04.4) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Denial of service
